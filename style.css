@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -38,7 +41,7 @@
 }
 
 body{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Oswald', sans-serif;
     background-color: rgb(12, 34, 41);
 }
 
@@ -56,6 +59,18 @@ nav#sidenav{
     width: 100%;
     transform: translateX(-100%);
     transition: transform 500ms ease-in-out;
+}
+
+ul,
+ul>li{
+    padding: .5rem;
+}
+
+.contact{
+    line-height: 2rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-weight: 600;
 }
 
 .logo{
@@ -239,5 +254,5 @@ i{
 }
 
 footer{
-    background: linear-gradient(180deg, #fff, rgb(101, 101, 101));
+    background: linear-gradient(180deg, #fff, rgb(38, 255, 85));
 }
